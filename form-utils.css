@@ -64,3 +64,17 @@
 .arrow-steps .step.current:after {
 	border-left: 17px solid #00b9e4;	
 }
+
+@media only screen and (min-width: 601px) and (max-width: 1070px) {
+  .arrow-steps {
+    display: block;
+  }
+  
+  .arrow-steps .step {
+    margin-bottom: 5px;
+  }
+  
+  .arrow-steps .step:before {
+    border-left: none;
+  }
+}
