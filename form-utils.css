@@ -3,7 +3,8 @@
 .arrow-steps {
   display: flex;
   justify-content: space-between;
-  margin-top: 15px;
+  margin-bottom: 20px;
+  padding-top: 15px;
   width: 100%;
 }
 
@@ -26,7 +27,7 @@
 .arrow-steps .step:after,
 .arrow-steps .step:before {
 	border-bottom: 17px solid transparent;
-  border-left: 17px solid #d9e3f7;
+  border-left: 17px solid #fff;
   border-top: 19px solid transparent;
   content: " ";
 	height: 0;
@@ -60,5 +61,5 @@
 }
 
 .arrow-steps .step.current:after {
-	border-left: 17px solid #23468c;	
+	border-left: 17px solid #00b9e4;	
 }
