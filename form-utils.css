@@ -40,7 +40,7 @@
 }
 
 .arrow-steps .step:before {
-  border-left: 17px solid #fff;	
+  border-left: 17px solid rgba(222, 222, 222, 0.9);	
 	left: 0;
   right: auto;
 	z-index: 0;
